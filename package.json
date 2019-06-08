@@ -1,1 +1,36 @@
-node/npm/package.json
+{
+  "name": "js-get",
+  "version": "1.0.0",
+  "description": "Simple asynchoronous HTTP request; mainly a wrapper around request-promise-native.",
+  "main": "source/main.js",
+  "dependencies": {
+    "application-log-winston-interface": ">=1.0.2",
+    "request": "*",
+    "request-promise-native": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./source/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anadian/js-get.git"
+  },
+  "keywords": [
+    "http",
+    "get",
+    "request",
+    "async",
+    "asynchoronous",
+    "libre",
+    "open",
+    "free",
+    "mit"
+  ],
+  "author": "Anadian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anadian/js-get/issues"
+  },
+  "homepage": "https://github.com/Anadian/js-get#readme"
+}
