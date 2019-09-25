@@ -4,7 +4,9 @@
   "description": "Simple asynchoronous HTTP request; mainly a wrapper around request-promise-native.",
   "main": "source/main.js",
   "dependencies": {
-    "application-log-winston-interface": ">=1.0.2",
+    "env-paths": "*",
+    "application-log-winston-interface": ">=1.0.5",
+    "make-dir": "*",
     "request": "*",
     "request-promise-native": "*"
   },
